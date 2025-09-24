@@ -17,8 +17,6 @@ Adafruit Logger\
 Inland 1.3" 128x64 OLED V2.0\
 GT-U7 GPS Module (From Aliexpress)
 
-The display and GPS module are running off of an external 5 volt DC power supply.
-
 
 ## Inland 1.3" 128x64 OLED V2.0 Pinout via SPI
 
