@@ -1,0 +1,21 @@
+0x0000454a
+$t
+/home/benjamin/Arduino/ArduinoGPSLogger/ArduinoGPSLogger_v0_1_i2c/ArduinoGPSLogger_v0_1_i2c.ino:172
+0x000059ee
+u8g2_font_decode_glyph
+/home/benjamin/Arduino/libraries/U8g2/src/clib/u8g2_font.c:700 (discriminator 1)
+0x00010c34
+_Z12arduino_mainv
+/home/benjamin/.arduino15/packages/arduino/hardware/renesas_uno/1.5.1/cores/arduino/main.cpp:121 (discriminator 1)
+0x00010c72
+$t
+/home/benjamin/.arduino15/packages/arduino/hardware/renesas_uno/1.5.1/cores/arduino/main.cpp:143
+0x00008d3e
+main
+/home/benjamin/.arduino15/packages/arduino/hardware/renesas_uno/1.5.1/variants/UNOWIFIR4/tmp_gen_c_files/main.c:7
+0x0000dce6
+Reset_Handler
+/home/pennam/Arduino/hardware/arduino-git/renesas/extras/e2studioProjects/Santiago/Debug/../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c:69 (discriminator 1)
+0x0000dcdc
+Reset_Handler
+/home/pennam/Arduino/hardware/arduino-git/renesas/extras/e2studioProjects/Santiago/Debug/../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c:62

@@ -1,0 +1,41 @@
+Firmware name: "/home/benjamin/.cache/arduino/sketches/6F3EBF57477184C8F10A596AA203C208/Testing_with_time_SD_copy_v1.1.ino", compiled on: Sep 22 2025
+Fault on interrupt or bare metal(no OS) environment
+===== Thread stack information =====
+  addr: 20007e88    data: 00004388
+  addr: 20007e8c    data: 01000001
+  addr: 20007e90    data: 0000035e
+  addr: 20007e94    data: 00018fa8
+  addr: 20007e98    data: 00000000
+  addr: 20007e9c    data: 000003e8
+  addr: 20007ea0    data: 20003064
+  addr: 20007ea4    data: 2e737067
+  addr: 20007ea8    data: 00767363
+  addr: 20007eac    data: 00000000
+  addr: 20007eb0    data: 00000000
+  addr: 20007eb4    data: 20003300
+  addr: 20007eb8    data: 00000003
+  addr: 20007ebc    data: 00000000
+  addr: 20007ec0    data: 00004040
+  addr: 20007ec4    data: 0000a500
+  addr: 20007ec8    data: ffffffff
+  addr: 20007ecc    data: 20003064
+  addr: 20007ed0    data: 05000000
+  addr: 20007ed4    data: 00010c35
+  addr: 20007ed8    data: 00019e30
+  addr: 20007edc    data: 40046f00
+  addr: 20007ee0    data: 00000000
+  addr: 20007ee4    data: 00010c73
+  addr: 20007ee8    data: 00019e30
+  addr: 20007eec    data: 00008d3f
+  addr: 20007ef0    data: 00019e30
+  addr: 20007ef4    data: 0000dce7
+  addr: 20007ef8    data: 0000dcdd
+  addr: 20007efc    data: 00002599
+====================================
+=================== Registers information ====================
+  R0 : 200005c0  R1 : 00000001  R2 : ffffffff  R3 : 20000000
+  R12: 00005ccd  LR : 000059ef  PC : 0000454a  PSR: 61000000
+==============================================================
+Bus fault is caused by precise data access violation
+The bus fault occurred address is 1ffffffc
+Show more call stack info by run: addr2line -e "/home/benjamin/.cache/arduino/sketches/6F3EBF57477184C8F10A596AA203C208/Testing_with_time_SD_copy_v1.1.ino".elf -a -f 0000454a 000059ee 00010c34 00010c72 00008d3e 0000dce6 0000dcdc
