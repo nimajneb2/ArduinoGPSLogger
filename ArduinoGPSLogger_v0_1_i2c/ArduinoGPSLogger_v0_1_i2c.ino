@@ -1,8 +1,6 @@
 #include <Wire.h>
 #include <RTClib.h>
 #include <Arduino.h>
-
-#include <Wire.h>
 #include <U8g2lib.h>
 #include <SD.h>
 #include <SoftwareSerial.h>
