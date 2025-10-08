@@ -14,7 +14,7 @@ This simple Arduino code logs GPS coordinates from a GT-U7 GPS module to a file 
 ## Hardware used
 Arduino Uno R4 Wifi\
 Adafruit Logger\
-Inland 1.3" 128x64 OLED V2.0\
+0.96" 128x64 OLED (From Aliexpress)\
 GT-U7 GPS Module (From Aliexpress)
 
 
@@ -24,10 +24,8 @@ GT-U7 GPS Module (From Aliexpress)
 |----------|----------|
 | VCC  | 5VDC  |
 | GND  | Ground  |
-| CLK  | 13  |
-| MOSI  | 11  |
-| DC  | 9  |
-| CS  | 6  |
+| SDA  | A4  |
+| SCL  | A5  |
 
 ## GT-U7 Pinout
 
@@ -44,25 +42,24 @@ GT-U7 GPS Module (From Aliexpress)
 
 
 Here's a photo of my Arduino with the code running.\
-<img width="390" alt="Photo of Arduino project with GPS module and display showing time" src=https://github.com/user-attachments/assets/3bd4c2ce-a4c1-4959-9ef2-df455d25f22a />
+<img height="400" alt="ArduinoGPSLogger photo" src="https://github.com/user-attachments/assets/3362d71e-a63f-4e82-8b4b-141422a48c32" />
+
 
 Here's an image export from Fritzing.\
-<img width="390" height="441" alt="Image exported from Fritzing" src="https://github.com/user-attachments/assets/321bef75-45e4-4d5e-a6b3-b7a0ce1c939e" />
+<img height="300" alt="ArduinoGPSLogger Fritzing" src="https://github.com/user-attachments/assets/94ac2901-d09e-4b4d-ad87-a9621f505acb" />
 
 
 
 
 
 
-Arduino Uno R4 Wifi\
-Adafruit Logger\
-Inland 1.3" 128x64 OLED V2.0\
-GT-U7 GPS Module (From Aliexpress)
 
 Things to do:
 
-* Display time based on the GPS Module.
-* Remove RTC code
-* Fix power source.
+* ✅ Display time based on the GPS Module.
+* ✅ Remove RTC code
+* ✅ Fix power source.
 * Research GPS functions available in Arduino library.
 * Change GPS pins so it's 3-3 and 4-4
+
+* Notes: After removing RTC, I'm not sure it's reliable in doors to rely on a $5 GPS module for time.
