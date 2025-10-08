@@ -18,7 +18,7 @@ Adafruit Logger\
 GT-U7 GPS Module (From Aliexpress)
 
 
-## Inland 1.3" 128x64 OLED V2.0 Pinout via SPI
+## 0.96" 128x64 OLED via I2C
 
 | OLED | Arduino |
 |----------|----------|
