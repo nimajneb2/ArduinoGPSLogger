@@ -63,4 +63,6 @@ Things to do:
 * Research GPS functions available in Arduino library.
 * Change GPS pins so it's 3-3 and 4-4
 
-* Notes: After removing RTC, I'm not sure it's reliable in doors to rely on a $5 GPS module for time.
+Challenge: Optimize code so it fits onto an Arduino R3.
+
+Notes: After removing RTC, I'm not sure it's reliable in doors to rely on a $5 GPS module for time.
